@@ -1,0 +1,52 @@
+#sv {position: absolute;
+	top: 0%;
+	left: 0%;
+	;}
+#toglegrid {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.select {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.playing {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: none;
+}
+#drop-area{
+	position: absolute;
+	left: 90%;
+}
+#myCanvas{
+	z-index: 100;
+	position: absolute;
+}
+#saveButton{
+	z-index: 200;
+	position: absolute;
+	top: 100px;
+	left: 95%;
+}
+#loadButton{
+	z-index: 200;
+	position: absolute;
+	top: 150px;
+	left: 95%;
+}
+#topRunButton{
+	z-index: 200;
+	position: absolute;
+	top: 200px;
+	left: 95%;
+}
+#popInfo{
+	z-index: 200;
+	position: absolute;
+	top: 250px;
+	left: 87%;
+}

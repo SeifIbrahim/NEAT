@@ -1,0 +1,54 @@
+<html>
+<head>
+
+	<title>space invaders</title>
+<canvas id="myCanvas" width=800 height=400></canvas>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="platform.css">
+
+	<script type="text/javascript" src="platform.js">
+	</script>
+	<script type="text/javascript" src="upload.js">
+	</script>
+	<script type="text/javascript" src="levl1.json">
+	</script>
+	<script type="text/javascript" src="PopulationSave.json">
+	</script>
+
+</head>
+<body>
+	<button id="saveButton">Save Population</button>
+	<button id = "loadButton">Load Population</button>
+	<button id = "topRunButton"> Show Top Run</button>
+	<svg id="sv" height=100% width=100%>
+	</svg>	
+	<img id="toglegrid" src="gridbutton.png" width="300" height="100"/>
+	<img id="levelselect" class="select" src="levelselect.png" width="300" height="100"/>
+	<img id="savelevel" class="select" src="savelevel.png" width="300" height="100"/>
+	<img id="leveleditor" class="playing" src="leveleditor.png" width="300" height="100"/>
+	<img id="one" class="playing" src="one.png" width="10" height="10"/>
+	<img id="grasstl" class="select" src="grasstl.png" width="10" height="10"/>
+	<img id="grasst" class="select" src="grasst.png" width="10" height="10"/>
+	<img id="grasstr" class="select" src="grasstr.png" width="10" height="10"/>
+	<img id="grassr" class="select" src="grassr.png" width="10" height="10"/>
+	<img id="grassc" class="select" src="grassc.png" width="10" height="10"/>
+	<img id="grassl" class="select" src="grassl.png" width="10" height="10"/>
+	<img id="grassbl" class="select" src="grassbl.png" width="10" height="10"/>
+	<img id="grassb" class="select" src="grassb.png" width="10" height="10"/>
+	<img id="grassbr" class="select" src="grassbr.png" width="10" height="10"/>
+	<img id="lavat" class="select" src="lavat.png" width="10" height="10"/>
+	<img id="lavac" class="select" src="lavac.png" width="10" height="10"/>
+	<img id="air" class="select" src="background.png" width="10" height="10"/>
+		<p id = "popInfo"><p>
+	<p>
+		<input id="files-upload" type="file" multiple>
+	</p>
+	<p id="drop-area">
+		<span class="drop-instructions">or drag and drop files here</span>
+		<span class="drop-over">Drop files here!</span>
+	</p>
+	<ul id="file-list">
+		<li class="no-items">(no files uploaded yet)</li>
+	</ul>
+</body>
+</html>
